@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.bg {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+}
+.imgTop {
+  height: 200px;
+  width: 200px;
+}
+.card {
+  height: 100%;
+  width: 340px;
+
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 17px;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.DateStyle {
+  width: 200px;
+  height: 33px;
+  padding-left: 12px;
+  border: 1.4px solid #fbc7d4;
+  border-radius: 6px;
+  margin-top: 4px;
+}
+.AddButton {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: 0px;
+  height: 27px;
+  padding: 5px;
+  width: 54px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+}
+.AppointsHeader {
+  font-size: 22px;
+}
+.AppointAndStarred {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LabelElements {
+  color: #b5b7c4;
+}
+
+.listStyle {
+  list-style-type: none;
+}
+
+.buttonStared {
+  padding: 5px;
+  border: 1px solid #8b5cf6;
+  border-radius: 18px;
+  width: 77px;
+  height: 28px;
+  color: #8b5cf6;
+  margin-top: 12px;
+}
+.colorsBg {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}

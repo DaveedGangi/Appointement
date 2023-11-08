@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.AppointsCollection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.NameStyle {
+  font-size: 17px;
+  padding-right: 120px;
+}
+.Stars {
+  border: 0px;
+  background-color: #ffffff;
+}
+.DatePara {
+  color: #b5b7c4;
+}
